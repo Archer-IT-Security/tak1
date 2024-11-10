@@ -31,7 +31,7 @@ ext {
 
   def (tv, takrel1, takrel2) = gitdescribe.trim().tokenize('-')
 
-  if (takrel2 == null) {
+  if (takrel2 == '5') {
     takrel2 = '0'
   }
 
