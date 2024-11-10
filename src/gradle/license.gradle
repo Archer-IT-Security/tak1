@@ -101,5 +101,5 @@ project.afterEvaluate {
         licenseFile = rootProject.file('../LICENSE.md')
     }
 
-    assemble.dependsOn generateLicense
+    assemble.dependsOn 'generateLicense'.
 }
